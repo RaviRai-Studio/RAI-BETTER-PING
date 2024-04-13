@@ -1,0 +1,11 @@
+name: RAI-BETTER_PING
+version: '${project.version}'
+main: xyz.ravirai.raibetter_ping.RAI_BETTER_PING
+api-version: '1.18'
+author: Ravi-Rai.Studio
+description: A plugin to display player pings on right click in Minecraft.
+commands:
+  ping:
+    description: Check the ping of a player.
+    usage: /ping [player]
+    permission: raibetter_ping.ping
